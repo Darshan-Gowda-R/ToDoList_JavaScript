@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"
+    <title>TODO LIST</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>   Todo List</header>
+        <div class="inputField">
+            <input class="task" type="text" placeholder="Add Todo Item" id="TOAddData" onkeyup="EnableDisable()">
+            <input class="Date" type="text" placeholder="Date" id="Date" >
+            <input class="Button" type="button" value="Add Item" disabled=true id="btnSubmit" onclick="Add_Element()">
+        </div>
+        <ul class="todoList" id="display">
+            
+        </ul>
+        <div class="footer">
+            <span>Tasks</span>
+            <button  onclick="showTask()">pending </button>
+            <button id="btnComplete" onclick="showCompleted()">completed </button>
+            <button id="btnClearAll" onclick="clearAll()">Clear All </button>
+        </div>
+    </div>
+</body>
+</html>

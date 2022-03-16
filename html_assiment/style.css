@@ -1,0 +1,73 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+
+    height: 100vh;
+    width: 100%;
+    background: cadetblue;
+}
+
+
+.wrapper{
+    margin: 200px auto;
+    max-width: 550px;
+    width: 100%;
+    background: burlywood;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.wrapper .header{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.wrapper .inputField{
+    display: flex;
+    height: 45px;
+    font-size: x-large;
+    width: 100%;
+    margin: 2;
+    
+}
+.inputField{
+    width: 85%;
+    height: 100%;
+    font-size: 150%;
+    border: 1px snow;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+    
+}
+
+.inputField .Date{
+    width: 100px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+.inputField .task{
+    font-size: x-large;
+}
+.inputField .Button{
+    margin-left: 10px;
+    background-color:cornsilk;
+}
+.todoList{
+    margin-left: 20px;
+    font-size: 190%;
+    list-style-type:circle;
+}
+.footer{
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.complete{
+    margin-left: 20px;
+}
