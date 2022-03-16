@@ -135,12 +135,12 @@ function showCompleted(){
     }
     let newLiTag1=''
     cArr.forEach((element, index) => {
-        newLiTag1 +=    `<li>${element}</li><button 
+        newLiTag1 +=    `<li><s>${element}</s></li><button 
         onclick = reMoveComplited(${index}) 
         type="button">delete</button>`
     });
     console.log("the completed list is " + cArr);
-    document.getElementById("display").innerHTML = cArr;
+    document.getElementById("display").innerHTML = newLiTag1;
 }
 
 //SHOWS THE COMPLETED LIST OF TODO TASK
